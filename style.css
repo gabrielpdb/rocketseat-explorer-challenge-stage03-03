@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* font-family: 'Palanquin', sans-serif;
+ */
+
+:root {
+  font-size: 62.5%;
+
+  --bg-primary: #eff1ff;
+  --bg-header: #8e9aaf;
+  --bg-card-span: #feeafa;
+}
+
+body {
+  font-family: 'Staatliches', cursive;
+  background: var(--bg-primary);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.2rem 0;
+  gap: 3.2rem;
+  background: var(--bg-header);
+}
+
+header img {
+  width: 13.7rem;
+  filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+}
+
+header h1 {
+  background: #cbc0d3;
+  color: white;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  text-align: center;
+  font-size: 4rem;
+  line-height: 3.4rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  padding: 0.8rem 0;
+}
