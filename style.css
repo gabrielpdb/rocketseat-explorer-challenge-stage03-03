@@ -45,3 +45,50 @@ header h1 {
   letter-spacing: 0.05em;
   padding: 0.8rem 0;
 }
+
+main {
+  max-width: clamp(32rem, 30rem + 40vw, 70rem);
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+main p {
+  font-family: 'Palanquin';
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.1rem;
+
+  text-align: center;
+  margin: 1.4rem 0 6rem 0;
+  color: #23053a;
+}
+
+.cards {
+  display: grid;
+  gap: 3.2rem;
+}
+
+.card {
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.card span {
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+
+  font-size: 2rem;
+  line-height: 3.4rem;
+
+  letter-spacing: 0.05em;
+
+  color: #4a4e69;
+  background: #feeafa;
+  padding: 0 2.3rem;
+  border-radius: 2rem;
+}
